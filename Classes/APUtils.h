@@ -5,7 +5,7 @@
 //
  
 #import "APUtils+Foundation.h"
-
+extern int sanfree;
 extern void runAfter(NSTimeInterval timeInterval, void(^block)(void));
 
 @interface APUtils : NSObject
